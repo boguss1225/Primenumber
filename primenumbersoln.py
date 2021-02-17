@@ -5,8 +5,10 @@ n = int(input())
 if n > 1:
     for i in range (2,n):
       #  print(n, "is prime ")
-        if (n % i) == 0:
-            print(n,"is not a prime number")
-            break
+        while (n % i) == 0:
+           # print(n,"is not a prime number")
+            n += 1
+           # print(n)
+            
     else:
-            print(n) 
+            print(n,"is prime number") 
