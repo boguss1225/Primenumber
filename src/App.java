@@ -25,6 +25,7 @@ public class App {
                     break;
         }
 
+		//changes made
         sc.close();
     }
 
